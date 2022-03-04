@@ -1,3 +1,7 @@
+# This is the source code for my personal site.
+
+It is being designed with React, CSS, and React-Router.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
