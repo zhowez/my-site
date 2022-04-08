@@ -19,7 +19,12 @@ const Home = () => {
               To all who come to this Coding place... Welcome! Check out the
               tabs at the top to learn more about me.
             </p>
-            <p>All my coding project can be found at www.github.com/zhowez</p>
+            <p>
+              All my coding project can be found at{" "}
+              <a href="http://www.github.com/zhowez" target="_blank">
+                http://www.github.com/zhowez
+              </a>
+            </p>
             <p>
               {" "}
               P.S. Try resizing your screen. Most of site doesnt move correctly
