@@ -18,21 +18,26 @@
 
 .NavBox {
   display: flex;
-  background-color: #f76c6c;
+  background-color: rgba(43, 118, 220);
   width: 100%;
   min-height: 3rem;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25]);
   justify-content: space-between;
   align-content: center;
 }
 
 .NavLinkBox {
   align-content: center;
+  height: 100%;
+  padding: 0 1rem;
 }
 
 .text {
+  color: white;
   align-content: center;
   justify-content: center;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 3rem;
+  padding: 0 1rem;
+  margin: 0;
 }

@@ -1,6 +1,6 @@
-import Navbar from "./UI/Navbar";
+import Navbar from "../NavBar/Navbar";
 import "./Home.css";
-import myPic from "../testimg.jpeg";
+import myPic from "../../testimg.jpeg";
 
 const Home = () => {
   return (

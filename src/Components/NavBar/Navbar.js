@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div className="NavBox">
       <div>
-        <p className="text"> Some Logo here</p>
+        <p className="text"> JZH</p>
       </div>
       <div className="NavLinkBox">
         <Link to="/" className="NavLink">
