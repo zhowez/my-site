@@ -6,22 +6,26 @@ const Home = () => {
   return (
     <div className="Background">
       <Navbar />
-      <div className="InfoBox">
-        <h1>Home</h1>
-        <div className="ContentBox">
-          <img src={myPic} alt="React Logo" className="Image" />
-          <p className="Text">
-            {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-            lectus, dictum at vehicula rutrum, lacinia non lorem. Vestibulum
-            posuere bibendum congue. Sed viverra varius luctus. Aliquam rutrum
-            vel dui sit amet molestie. Sed finibus urna a finibus rhoncus. Sed
-            in quam nibh. Phasellus commodo ullamcorper nibh, nec faucibus lorem
-            feugiat at. Morbi sollicitudin vel nulla et volutpat. Morbi nec
-            risus vitae sem porta efficitur. Proin pulvinar velit turpis, id
-            volutpat odio convallis et. Aenean commodo felis lectus, ut finibus
-            risus commodo eu.
-          </p>
+      <div className="Content">
+        <div className="Top">
+          <div className="ContentBox">
+            <img src={myPic} alt="React Logo" className="Image" />
+            <h1>Welcome to My Site! </h1>
+          </div>
+        </div>
+        <div className="Bottom">
+          <div className="ContentBox">
+            <p className="Text">
+              To all who come to this Coding place... Welcome! Check out the
+              tabs at the top to learn more about me.
+            </p>
+            <p>All my coding project can be found at www.github.com/zhowez</p>
+            <p>
+              {" "}
+              P.S. Try resizing your screen. Most of site doesnt move correctly
+              but the navbar looks so cool!!
+            </p>
+          </div>
         </div>
       </div>
     </div>
