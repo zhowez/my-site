@@ -33,15 +33,6 @@
   padding: 0;
 }
 
-.Text {
-  overflow-wrap: break-word;
-  inline-size: 40rem;
-  font-size: 1rem;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-
 .Image {
   width: 15rem;
   height: 20rem;

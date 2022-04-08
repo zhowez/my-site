@@ -15,7 +15,7 @@ const Home = () => {
         </div>
         <div className="Bottom">
           <div className="ContentBox">
-            <p className="Text">
+            <p>
               To all who come to this Coding place... Welcome! Check out the
               tabs at the top to learn more about me.
             </p>
