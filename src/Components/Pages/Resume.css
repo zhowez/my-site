@@ -1,5 +1,6 @@
 .Screen {
   width: 100%;
+  overflow: hidden;
 }
 
 .Content-Resume {
@@ -188,6 +189,7 @@
   align-items: flex-start;
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 .Job-List {
@@ -197,6 +199,7 @@
   align-items: flex-start;
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 .Job-List ul {
@@ -240,6 +243,7 @@
     min-height: 65%;
     order: 2;
     margin-bottom: 5rem;
+
     /*
   background-color: aquamarine;
   */
