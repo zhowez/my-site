@@ -4,7 +4,7 @@ import myPic from "../../testimg.jpeg";
 
 const Home = () => {
   return (
-    <div className="Background">
+    <div>
       <Navbar />
       <div className="Content">
         <div className="Top">

@@ -1,15 +1,14 @@
 import Navbar from "../NavBar/Navbar";
+import "./Resume.css";
 
 const Resume = () => {
   return (
     <div>
       <Navbar />
-      <h1>Resumé</h1>
-      <p>
-        This page is a work in progress but if you're reading this you are a
-        special person in my life.
-      </p>
-      <p>Please hire me. I may be dumb but I can try. 😂</p>
+      <div className="Content">
+        <div className="Left-Side">Left Side</div>
+        <div className="Right-Side">Right Side</div>
+      </div>
     </div>
   );
 };

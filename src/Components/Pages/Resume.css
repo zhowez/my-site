@@ -1,0 +1,53 @@
+.Content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.Left-Side {
+  display: flex;
+  flex-direction: column;
+  min-width: 35%;
+  height: 100vh;
+  background-color: lightgray;
+}
+
+.Right-Side {
+  display: flex;
+  flex-direction: column;
+  min-width: 65%;
+  height: 100vh;
+  /*
+  background-color: aquamarine;
+  */
+}
+
+@media screen and (max-width: 940px) {
+  .Content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .Left-Side {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 35%;
+    background-color: lightgray;
+  }
+
+  .Right-Side {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    height: 65%;
+    /*
+  background-color: aquamarine;
+  */
+  }
+}

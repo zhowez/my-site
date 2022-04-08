@@ -39,7 +39,7 @@
 .NavLinkBox {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
   align-content: center;
   height: 100%;
   padding: 0 1rem;
