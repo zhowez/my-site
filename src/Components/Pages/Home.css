@@ -1,10 +1,5 @@
 .Background {
-  display: flex;
-  flex-direction: column;
   background-color: #ffffff;
-  height: 100vh;
-  justify-content: flex-start;
-  align-items: center;
 }
 
 .InfoBox {
