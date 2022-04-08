@@ -5,7 +5,7 @@ const Resume = () => {
   return (
     <div>
       <Navbar />
-      <div className="Content">
+      <div className="Content-Resume">
         <div className="Left-Side">Left Side</div>
         <div className="Right-Side">Right Side</div>
       </div>

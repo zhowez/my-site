@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="Content">
+      <div className="Content-Home">
         <div className="Top">
           <div className="ContentBox">
             <img src={myPic} alt="React Logo" className="Image" />

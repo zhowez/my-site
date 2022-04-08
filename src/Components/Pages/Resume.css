@@ -1,4 +1,4 @@
-.Content {
+.Content-Resume {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -25,7 +25,7 @@
 }
 
 @media screen and (max-width: 940px) {
-  .Content {
+  .Content-Resume {
     display: flex;
     flex-direction: column;
     width: 100%;
