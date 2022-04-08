@@ -3,13 +3,14 @@
   flex-direction: row;
   width: 100%;
   height: 100%;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .Left-Side {
   display: flex;
   flex-direction: column;
   min-width: 35%;
+  max-width: 40%;
   height: 100%;
   background-color: lightgray;
 }
@@ -122,16 +123,18 @@
 .Right-Side {
   display: flex;
   flex-direction: column;
-  min-width: 65%;
   max-height: 100%;
-  justify-content: center;
-  align-items: flex-start;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
 }
 
 .Work {
-  padding: 0 2rem;
+  padding: 0;
   margin: 0;
+  margin-left: 1rem;
   height: 100%;
+  width: fit-content;
 }
 
 .Work H1 {
@@ -208,16 +211,17 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
-    justify-content: center;
+    min-height: 100vh;
+    justify-content: space-between;
   }
 
   .Left-Side {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    min-width: 100%;
     min-height: 35%;
     background-color: lightgray;
+    order: 1;
   }
 
   .Right-Side {
@@ -225,6 +229,7 @@
     flex-direction: column;
     min-width: 100%;
     height: 65%;
+    order: 2;
     /*
   background-color: aquamarine;
   */
