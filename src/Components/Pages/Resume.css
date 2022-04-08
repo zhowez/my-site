@@ -3,13 +3,20 @@
   flex-direction: row;
   width: 100%;
   height: 100%;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+.Center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Left-Side {
   display: flex;
   flex-direction: column;
   min-width: 35%;
+  max-width: 40%;
   height: 100%;
   background-color: lightgray;
 }
@@ -106,6 +113,7 @@
   align-items: flex-start;
   padding: 0;
   margin: 0;
+  margin-bottom: 5rem;
 }
 
 .Courses-List li {
@@ -122,16 +130,21 @@
 .Right-Side {
   display: flex;
   flex-direction: column;
-  min-width: 65%;
   max-height: 100%;
+  width: 100%;
   justify-content: center;
   align-items: flex-start;
 }
 
 .Work {
-  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
   margin: 0;
+  margin-left: 1rem;
   height: 100%;
+  width: fit-content;
 }
 
 .Work H1 {
@@ -208,23 +221,26 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
-    justify-content: center;
+    min-height: 100vh;
+    justify-content: space-between;
   }
 
   .Left-Side {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    min-height: 35%;
+    min-width: 100%;
+    min-height: 50%;
     background-color: lightgray;
+    order: 1;
   }
 
   .Right-Side {
     display: flex;
     flex-direction: column;
     min-width: 100%;
-    height: 65%;
+    min-height: 65%;
+    order: 2;
+    margin-bottom: 5rem;
     /*
   background-color: aquamarine;
   */

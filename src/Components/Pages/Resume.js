@@ -63,7 +63,6 @@ const Resume = () => {
             </div>
           </div>
         </div>
-
         <div className="Right-Side">
           <div className="Work">
             <h1>Work History</h1>
