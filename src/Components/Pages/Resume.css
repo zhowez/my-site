@@ -24,6 +24,43 @@
   */
 }
 
+.Line-Education {
+  padding: 0;
+  margin: 0;
+}
+
+.Education {
+  padding: 0 1rem;
+  margin: 0;
+}
+
+.Education H2 {
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.Education-Uni {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.Education-Awards {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 1.5rem;
+  margin: 0;
+}
+
+.Education-Awards H3 {
+  padding: 0.3rem 0;
+  margin: 0;
+}
+
 @media screen and (max-width: 940px) {
   .Content-Resume {
     display: flex;
