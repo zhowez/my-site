@@ -9,7 +9,7 @@ const Resume = () => {
         <div className="Left-Side">
           <div className="Education">
             <h1>Education</h1>
-            <hr className="Line-Education" />
+            <hr className="Line-Left" />
             <div className="Education-Uni">
               <h2>Clemson University</h2>
               <h2>2018-2022</h2>
@@ -63,8 +63,61 @@ const Resume = () => {
             </div>
           </div>
         </div>
-        <div className="Right-Side">Right Side</div>
+
+        <div className="Right-Side">
+          <div className="Work">
+            <h1>Work History</h1>
+            <hr className="Line-Right" />
+            <div className="Job">
+              <div className="Job-Header">
+                <h2>Southern Tide - Greenville, SC</h2>
+                <h2>2021-Current</h2>
+              </div>
+              <h3>Sales Associate</h3>
+              <div className="Job-List">
+                <ul>
+                  <li>Interacting with guest</li>
+                  <li>Opening and closing the store</li>
+                  <li>Providing an excellent transaction experience</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="Job">
+              <div className="Job-Header">
+                <h2>Walt Disney World Resort - Lake Buena Vista, FL</h2>
+                <h2>Spring of 2020</h2>
+              </div>
+              <h3>Disney College Program</h3>
+              <div className="Job-List">
+                <ul>
+                  <li>Providing Excellent Customer Service</li>
+                  <li>Resolve guests concerns</li>
+                  <li>Keep a balanced register</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="Job">
+              <div className="Job-Header">
+                <h2>Build - A - Bear Workshop - Greenville, SC</h2>
+                <h2>2014 – 2020</h2>
+              </div>
+              <h3>Sales Associate/ Associate Store Manager</h3>
+              <div className="Job-List">
+                <ul>
+                  <li>Training new employees in company standards</li>
+                  <li>
+                    Responsible for creating a fun and inviting atmosphere
+                  </li>
+                  <li>Delegate responsible to team members</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      {/*Add Footer */}
     </div>
   );
 };
