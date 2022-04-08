@@ -2,7 +2,7 @@
   margin-top: 0.5rem;
   font: inherit;
   font-weight: bold;
-  font-size: 27px;
+  font-size: 22px;
   cursor: pointer;
   border: 1px solid #bfc3c500;
   background-color: #00a5f700;
@@ -10,6 +10,7 @@
   border-radius: 12px;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .NavLink {
