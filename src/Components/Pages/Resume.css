@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   justify-content: space-between;
 }
 
@@ -10,21 +10,11 @@
   display: flex;
   flex-direction: column;
   min-width: 35%;
-  height: 100vh;
+  height: 100%;
   background-color: lightgray;
 }
 
-.Right-Side {
-  display: flex;
-  flex-direction: column;
-  min-width: 65%;
-  height: 100vh;
-  /*
-  background-color: aquamarine;
-  */
-}
-
-.Line-Education {
+.Line-Left {
   padding: 0;
   margin: 0;
 }
@@ -32,6 +22,12 @@
 .Education {
   padding: 0 1rem;
   margin: 0;
+}
+
+.Education H1 {
+  padding: 0rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 .Education H2 {
@@ -59,6 +55,78 @@
 .Education-Awards H3 {
   padding: 0.3rem 0;
   margin: 0;
+}
+
+.Skills {
+  padding: 0 1rem;
+  margin: 0;
+}
+
+.Skills H1 {
+  padding: 0rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.Skills-List {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.Skills-List li {
+  font-size: 16pt;
+  font-weight: bolder;
+}
+
+.Skills-AWS li {
+  font-size: 14pt;
+  font-weight: bold;
+  padding: 0.1rem;
+}
+
+.Courses {
+  padding: 0 1rem;
+  margin: 0;
+}
+
+.Courses H1 {
+  padding: 0rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.Courses-List {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.Courses-List li {
+  font-size: 16pt;
+  font-weight: bolder;
+  padding: 0.1rem;
+}
+
+.Courses-Sublist li {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.Right-Side {
+  display: flex;
+  flex-direction: column;
+  min-width: 65%;
+  height: 100vh;
+  /*
+  background-color: aquamarine;
+  */
 }
 
 @media screen and (max-width: 940px) {

@@ -22,6 +22,46 @@ const Resume = () => {
               </div>
             </div>
           </div>
+          <div className="Skills">
+            <h1>Skills</h1>
+            <hr className="Line-Left" />
+            <div className="Skills-List">
+              <ul>
+                <li>C/C++</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>React.JS</li>
+                <li>SQL - MySQL</li>
+                <li>Amazon Web Services (AWS) </li>
+                <div>
+                  <ul className="Skills-AWS">
+                    <li>EC2</li>
+                    <li>RDS</li>
+                    <li>VPC</li>
+                    <li>Security Groups</li>
+                  </ul>
+                </div>
+                <li>Agile/Scrum</li>
+                <li>GIT</li>
+                <li>Azure DevOps</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="Courses">
+            <h1>Relevent Courses</h1>
+            <hr className="Line-Left" />
+            <div className="Courses-List">
+              <ul>
+                <li>Software Development Foundations</li>
+                <li>Software Engineering</li>
+                <li>Network Programming</li>
+                <li>Web Application Development</li>
+                <li>Cloud Computing Architecture</li>
+                <li>Computer Security Principles</li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div className="Right-Side">Right Side</div>
       </div>
