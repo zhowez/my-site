@@ -1,15 +1,13 @@
+.Screen {
+  width: 100%;
+}
+
 .Content-Resume {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: 100%;
   justify-content: space-evenly;
-}
-
-.Center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .Left-Side {
@@ -144,7 +142,7 @@
   margin: 0;
   margin-left: 1rem;
   height: 100%;
-  width: fit-content;
+  width: 90%;
 }
 
 .Work H1 {
@@ -167,6 +165,7 @@
   padding: 0 1rem;
   margin: 0;
   display: flex;
+  width: 100%;
   flex-direction: column;
 }
 

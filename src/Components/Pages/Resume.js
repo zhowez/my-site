@@ -3,7 +3,7 @@ import "./Resume.css";
 
 const Resume = () => {
   return (
-    <div>
+    <div className="Screen">
       <Navbar />
       <div className="Content-Resume">
         <div className="Left-Side">
