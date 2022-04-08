@@ -8,7 +8,7 @@ const Home = () => {
       <Navbar />
       <div className="Content-Home">
         <div className="Top">
-          <div className="ContentBox">
+          <div className="ContentBox ">
             <img src={myPic} alt="React Logo" className="Image" />
             <h1>Welcome to My Site! </h1>
           </div>
