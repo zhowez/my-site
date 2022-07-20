@@ -1,31 +1,50 @@
-.NavButton {
-  margin-top: 0.5rem;
+.nav-link {
+  text-decoration: none;
   font: inherit;
   font-weight: bold;
   font-size: 22px;
   cursor: pointer;
   border: 1px solid #bfc3c500;
   background-color: #00a5f700;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   border-radius: 12px;
   justify-content: center;
   align-items: center;
   height: 100%;
+  padding: 0 1rem;
 }
 
-.NavLink {
-  text-decoration: none;
-}
-
-.NavBox {
+.nav-box {
   display: flex;
   flex-direction: row;
-  background-color: rgba(43, 118, 220);
+  opacity: 0.8;
+
   width: 100%;
   min-height: 3rem;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-box ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-box li {
+  list-style: none;
+}
+
+.nav-box p {
+  margin: 0 1rem;
+  font-size: 40px;
+  font-weight: 500;
 }
 
 .NavBox-Bg {
@@ -67,7 +86,7 @@
 .Hamburger {
   display: none;
 }
-
+/*
 @media screen and (max-width: 940px) {
   .small {
     display: flex;
@@ -107,3 +126,4 @@
     transition: 0.3s;
   }
 }
+*/

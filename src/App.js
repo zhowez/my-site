@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 
@@ -6,10 +5,11 @@ import Home from "./Components/Pages/Home";
 import About from "./Components/Pages/About";
 import Contact from "./Components/Pages/Contact";
 import Resume from "./Components/Pages/Resume";
+import style from "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className={style.background}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />

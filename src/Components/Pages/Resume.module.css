@@ -1,0 +1,9 @@
+.background {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  background-color: #e9e9e9;
+}

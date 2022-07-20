@@ -1,8 +1,15 @@
 import Navbar from "../NavBar/Navbar";
-import "./Resume.css";
+import style from "./Resume.module.css";
+import ContentBox from "../UI/ContentBox";
 
 const Resume = () => {
   return (
+    <div className={style.background}>
+      <ContentBox className={style.box}>
+        <p> Hello Tester</p>
+      </ContentBox>
+    </div>
+    /*
     <div className="Screen">
       <Navbar />
       <div className="Content-Resume">
@@ -116,8 +123,8 @@ const Resume = () => {
           </div>
         </div>
       </div>
-      {/*Add Footer */}
-    </div>
+      
+    </div> */
   );
 };
 
