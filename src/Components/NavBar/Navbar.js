@@ -1,11 +1,7 @@
 import { Link } from "react-router-dom";
 import style from "./Navbar.module.css";
-import { useState } from "react";
 
 function Navbar() {
-  const [nav, setNav] = useState(false);
-  const handlerNav = () => setNav(!nav);
-
   return (
     <div div className={style["nav-box"]}>
       <p> JZH</p>
