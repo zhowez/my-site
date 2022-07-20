@@ -1,13 +1,17 @@
 import Navbar from "../NavBar/Navbar";
 import style from "./Resume.module.css";
 import ContentBox from "../UI/ContentBox";
+import Main from "../UI/Main";
 
 const Resume = () => {
   return (
     <div className={style.background}>
-      <ContentBox className={style.box}>
-        <p> Hello Tester</p>
-      </ContentBox>
+      <Navbar />
+      <Main>
+        <ContentBox className={style.box}>
+          <p> Hello Tester</p>
+        </ContentBox>
+      </Main>
     </div>
     /*
     <div className="Screen">
