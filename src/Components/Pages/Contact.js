@@ -1,5 +1,6 @@
 import Navbar from "../NavBar/Navbar";
 import Main from "../UI/Main";
+import Footer from "../Footer/Footer";
 
 const Contact = () => {
   return (
@@ -16,6 +17,7 @@ const Contact = () => {
           be here
         </p>
       </Main>
+      <Footer />
     </>
   );
 };

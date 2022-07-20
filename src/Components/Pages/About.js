@@ -1,5 +1,6 @@
 import Navbar from "../NavBar/Navbar";
 import Main from "../UI/Main";
+import Footer from "../Footer/Footer";
 
 const About = () => {
   return (
@@ -28,6 +29,7 @@ const About = () => {
           coming soon!) If you have any questions send me a message!
         </p>
       </Main>
+      <Footer />
     </>
   );
 };

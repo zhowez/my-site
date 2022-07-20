@@ -2,6 +2,7 @@ import Navbar from "../NavBar/Navbar";
 import style from "./Resume.module.css";
 import ContentBox from "../UI/ContentBox";
 import Main from "../UI/Main";
+import Footer from "../Footer/Footer";
 
 const Resume = () => {
   return (
@@ -12,6 +13,7 @@ const Resume = () => {
           <p> Hello Tester</p>
         </ContentBox>
       </Main>
+      <Footer />
     </div>
     /*
     <div className="Screen">
