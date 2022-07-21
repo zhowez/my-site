@@ -6,10 +6,9 @@
 }
 
 .main {
-  margin-top: 8rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .box {
@@ -18,11 +17,12 @@
   flex-direction: row;
   align-items: center;
   max-width: 55rem;
+  padding: 1.5rem 2rem;
 }
 
 .text p {
   font-size: large;
-  text-align: center;
+  text-align: left;
 }
 
 .text {
@@ -32,9 +32,8 @@
 }
 
 .image {
-  width: 40%;
-  height: 40%;
+  width: 70%;
+  height: 70%;
   border-radius: 20rem;
   margin-right: 5rem;
-  margin-left: 1rem;
 }

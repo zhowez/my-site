@@ -1,32 +1,19 @@
 import style from "./Footer.module.css";
 import { Link } from "react-router-dom";
+import { GithubOutlined, LinkedinOutlined } from "@ant-design/icons";
 
 const Footer = () => {
   return (
     <div div className={style["footer-box"]}>
-      <p> JZH</p>
-      <ul>
-        <li>
-          <Link to="/" className={style["footer-link"]}>
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="/About" className={style["footer-link"]}>
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to="/Resume" className={style["footer-link"]}>
-            Resumé
-          </Link>
-        </li>
-        <li>
-          <Link to="/Contact" className={style["footer-link"]}>
-            Contact
-          </Link>
-        </li>
-      </ul>
+      <p>© 2022 James Z. Howes. All rights reserved.</p>
+      <div>
+        <a href="https://github.com/zhowez">
+          <GithubOutlined /> Check Out My Github
+        </a>
+        <a href="https://github.com/zhowez">
+          <LinkedinOutlined /> Let's Connect!
+        </a>
+      </div>
     </div>
   );
 };
