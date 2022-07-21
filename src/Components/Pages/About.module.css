@@ -1,0 +1,54 @@
+.main {
+  padding: 0 2rem;
+}
+
+.main hr {
+  padding: 0;
+  margin: 0;
+}
+.main h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  width: 60rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #b4dfe5;
+}
+
+.main img {
+  width: 30%;
+  border-radius: 16px;
+}
+.main h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.right-text {
+  text-align: right;
+  padding-left: 5rem;
+  padding-top: 1rem;
+}
+
+.left-text {
+  text-align: left;
+  padding-right: 5rem;
+  padding-top: 1rem;
+}
+.info-box-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.info-box-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

@@ -2,7 +2,7 @@ import Navbar from "../NavBar/Navbar";
 import style from "./Home.module.css";
 import ContentBox from "../UI/ContentBox";
 import Main from "../UI/Main";
-import pic from "../../profile_pic.png";
+import pic from "../../pictures/profile_pic.png";
 import Footer from "../Footer/Footer";
 
 const Home = () => {

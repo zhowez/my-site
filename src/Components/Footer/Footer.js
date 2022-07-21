@@ -1,5 +1,5 @@
 import style from "./Footer.module.css";
-import { Link } from "react-router-dom";
+
 import { GithubOutlined, LinkedinOutlined } from "@ant-design/icons";
 
 const Footer = () => {
@@ -10,7 +10,7 @@ const Footer = () => {
         <a href="https://github.com/zhowez">
           <GithubOutlined /> Check Out My Github
         </a>
-        <a href="https://github.com/zhowez">
+        <a href="https://www.linkedin.com/in/jameszhowes/">
           <LinkedinOutlined /> Let's Connect!
         </a>
       </div>
