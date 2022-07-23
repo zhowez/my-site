@@ -1,4 +1,3 @@
-import Navbar from "../NavBar/Navbar";
 import style from "./Home.module.css";
 import ContentBox from "../UI/ContentBox";
 
