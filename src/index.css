@@ -36,3 +36,14 @@ code {
 button:active {
   background-color: #fbe8a6;
 }
+
+* input {
+  border-radius: 16px;
+  padding: 1rem;
+  width: auto;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+
+  min-width: 15rem;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0);
+}

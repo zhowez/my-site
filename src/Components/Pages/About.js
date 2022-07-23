@@ -30,6 +30,7 @@ const About = () => {
           <ContentBox className={style.box}>
             <div className={style["info-box-left"]}>
               <h2>Life At Clemson</h2>
+
               <p className={style["left-text"]}>
                 During His time at Clemson Univeristy, James studied computer
                 science. He was able to take a wide variety of classing
