@@ -14,6 +14,11 @@
   margin: 0 1rem;
 }
 
+.nav-link:hover,
+.nav-link:active {
+  color: #f4976c;
+}
+
 .nav-box {
   display: flex;
   flex-direction: row;
