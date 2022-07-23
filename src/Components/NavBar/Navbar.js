@@ -3,7 +3,7 @@ import style from "./Navbar.module.css";
 
 function Navbar() {
   return (
-    <div div className={style["nav-box"]}>
+    <div className={style["nav-box"]}>
       <p> JZH</p>
       <ul>
         <li>

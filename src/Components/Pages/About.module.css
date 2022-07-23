@@ -1,10 +1,17 @@
 .main {
   padding: 0 2rem;
+  margin-top: 2rem;
+}
+.organize {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
 }
 
 .main hr {
   padding: 0;
-  margin: 0;
+  color: black;
 }
 .main h1 {
   padding: 0;
@@ -17,6 +24,7 @@
   flex-direction: row;
   justify-content: space-between;
   background-color: #b4dfe5;
+  margin: 1rem 0;
 }
 
 .main img {

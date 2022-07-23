@@ -1,15 +1,14 @@
 import Navbar from "../NavBar/Navbar";
 import style from "./Home.module.css";
 import ContentBox from "../UI/ContentBox";
-import Main from "../UI/Main";
+
 import pic from "../../pictures/profile_pic.png";
 import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <Main className={style.main}>
+      <div className={style.content}>
         <ContentBox className={style.box}>
           <img className={style.image} src={pic} alt="Pic of me" />
           <div className={style.text}>
@@ -23,7 +22,7 @@ const Home = () => {
             </p>
           </div>
         </ContentBox>
-      </Main>
+      </div>
       <Footer />
     </>
   );

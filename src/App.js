@@ -5,11 +5,13 @@ import Home from "./Components/Pages/Home";
 import About from "./Components/Pages/About";
 import Contact from "./Components/Pages/Contact";
 import Resume from "./Components/Pages/Resume";
-import style from "./App.css";
+
+import Navbar from "./Components/NavBar/Navbar";
 
 function App() {
   return (
-    <div className={style.background}>
+    <div className="background">
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
