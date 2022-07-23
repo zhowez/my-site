@@ -52,7 +52,7 @@ const About = () => {
           <ContentBox className={style.box}>
             <img src={gradPic} alt="Pic of me" />
             <div className={style["info-box-right"]}>
-              <h2>Life Before Clemson</h2>
+              <h2>Life After Clemson</h2>
               <p className={style["right-text"]}>
                 James graduated on time in May 2022 with a 3.52 GPA. He is now
                 seeking new oppurtunites as a junior software developer.While he
