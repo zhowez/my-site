@@ -1,6 +1,6 @@
 import style from "./Footer.module.css";
 
-import { GithubOutlined, LinkedinOutlined } from "@ant-design/icons";
+import { Github, Linkedin } from "react-bootstrap-icons";
 
 const Footer = () => {
   return (
@@ -8,10 +8,10 @@ const Footer = () => {
       <p>© 2022 James Z. Howes. All rights reserved.</p>
       <div>
         <a href="https://github.com/zhowez">
-          <GithubOutlined /> Check Out My Github
+          <Github /> Check Out My Github
         </a>
         <a href="https://www.linkedin.com/in/jameszhowes/">
-          <LinkedinOutlined /> Let's Connect!
+          <Linkedin /> Let's Connect!
         </a>
       </div>
     </div>

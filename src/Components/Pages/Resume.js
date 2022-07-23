@@ -1,7 +1,11 @@
-import Navbar from "../NavBar/Navbar";
 import style from "./Resume.module.css";
 import ContentBox from "../UI/ContentBox";
-
+import {
+  PersonLinesFill,
+  Tools,
+  BriefcaseFill,
+  BookHalf,
+} from "react-bootstrap-icons";
 import Footer from "../Footer/Footer";
 import React, { useRef } from "react";
 
@@ -23,18 +27,30 @@ const Resume = () => {
 
         <div className={style["column-rules"]}>
           <ContentBox className={style["left-column"]}>
-            <button onClick={() => scrollToRef(educationRef)}>Education</button>
+            <button onClick={() => scrollToRef(educationRef)}>
+              <PersonLinesFill /> Education
+            </button>
 
-            <button onClick={() => scrollToRef(coursesRef)}>Courses</button>
+            <button onClick={() => scrollToRef(coursesRef)}>
+              <BookHalf /> Courses
+            </button>
 
-            <button onClick={() => scrollToRef(skillsRef)}>Skills</button>
+            <button onClick={() => scrollToRef(skillsRef)}>
+              <Tools />
+              Skills
+            </button>
 
-            <button onClick={() => scrollToRef(workRef)}>Work</button>
+            <button onClick={() => scrollToRef(workRef)}>
+              <BriefcaseFill />
+              Work
+            </button>
           </ContentBox>
           <div className={style["right-column"]}>
             <div className={style.education}>
               <ContentBox className={style.box}>
-                <h2 ref={educationRef}>Education</h2>
+                <h2 ref={educationRef}>
+                  <PersonLinesFill /> Education
+                </h2>
                 <hr />
                 <h3>Clemson University</h3>
                 <h3>2018-2022</h3>
@@ -46,7 +62,9 @@ const Resume = () => {
               </ContentBox>
 
               <ContentBox className={style.box}>
-                <h2 ref={coursesRef}>Relevent Courses</h2>
+                <h2 ref={coursesRef}>
+                  <BookHalf /> Relevent Courses
+                </h2>
                 <hr />
                 <div className={style.organize}>
                   <ContentBox>Software Development Foundations</ContentBox>
@@ -60,7 +78,9 @@ const Resume = () => {
             </div>
 
             <ContentBox className={style.skills}>
-              <h2 ref={skillsRef}>Skills</h2>
+              <h2 ref={skillsRef}>
+                <Tools /> Skills
+              </h2>
               <hr />
               <div className={style.organize}>
                 <ContentBox>C/C++</ContentBox>
@@ -82,7 +102,9 @@ const Resume = () => {
             </ContentBox>
 
             <ContentBox className={style.jobs}>
-              <h2 ref={workRef}>Work Experience</h2>
+              <h2 ref={workRef}>
+                <BriefcaseFill /> Work Experience
+              </h2>
               <hr />
               <div className={style["jobs-organize"]}>
                 <ContentBox className={style.box}>

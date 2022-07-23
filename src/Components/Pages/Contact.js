@@ -1,5 +1,3 @@
-import Navbar from "../NavBar/Navbar";
-
 import Footer from "../Footer/Footer";
 
 const Contact = () => {
@@ -16,6 +14,7 @@ const Contact = () => {
           be here
         </p>
       </div>
+      <Footer />
     </>
   );
 };
