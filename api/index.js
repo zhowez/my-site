@@ -1,6 +1,6 @@
 const app = require("express")();
 const bodyParser = require("body-parser");
-import fetch from "node-fetch";
+const fetch = require("node-fetch");
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
