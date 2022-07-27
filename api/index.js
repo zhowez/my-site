@@ -6,3 +6,5 @@ app.post("/api", (req, res) => {
   res.setHeader("Content-Type", "application/json");
   res.json(body);
 });
+
+module.exports = app;

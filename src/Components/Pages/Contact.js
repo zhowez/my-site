@@ -28,13 +28,14 @@ const Contact = () => {
 
     if (!res.ok) {
       alert("something went wrong");
+    } else {
+      setName("");
+      setEmail("");
+      setVerifyEmail("");
+      setSubject("");
+      setMessage("");
+      alert("Thank you for filling out the contact form.");
     }
-    setName("");
-    setEmail("");
-    setVerifyEmail("");
-    setSubject("");
-    setMessage("");
-    alert("Thank you for filling out the contact form.");
   };
 
   const [name, setName] = useState("");
