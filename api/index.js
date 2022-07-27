@@ -16,7 +16,7 @@ app.post("/api", async (req, res) => {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ name: "test" }),
+      body: JSON.stringify(body),
     }
   );
 
