@@ -17,11 +17,17 @@ const Contact = () => {
       time: date.toLocaleTimeString(),
     };
     console.log(info);
-    const res = await fetch("https://jameshowes.vercel.app/api/", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(info),
-    });
+    const res = await fetch(
+      "https://personal-site-a9a2c-default-rtdb.firebaseio.com/responses.json",
+      {
+        method: "POST",
+        mode: "cors",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(info),
+      }
+    );
 
     if (!res.ok) {
       alert("something went wrong");
