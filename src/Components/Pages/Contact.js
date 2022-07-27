@@ -19,10 +19,7 @@ const Contact = () => {
     console.log(info);
     const res = await fetch("https://jameshowes.vercel.app/api/", {
       method: "POST",
-      mode: "cors",
-      headers: {
-        "Content-Type": "application/json",
-      },
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(info),
     });
 
