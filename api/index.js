@@ -16,7 +16,7 @@ app.post("/api", (req, res) => {
       headers: {
         "Content-Type": "application/json",
       },
-      body: body,
+      body: JSON.stringify({ name: "zach", email: "test@test.com" }),
     }
   );
   // if (!answer.ok) {
