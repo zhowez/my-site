@@ -1,4 +1,5 @@
 const app = require("express")();
+const bodyParser = require("body-parser");
 
 app.post("/api", (req, res) => {
   const body = req.body;
