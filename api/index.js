@@ -20,9 +20,9 @@ app.post("/api", async (req, res) => {
     }
   );
 
-  if (!answer.ok) {
-    return res.status(404);
-  }
+  // if (!answer.ok) {
+  //   return res.status(404);
+  // }
   return res.status(200);
 });
 
