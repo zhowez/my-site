@@ -5,10 +5,10 @@ const fetch = require("node-fetch");
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.post("/api", async (req, res) => {
+app.post("/api", (req, res) => {
   const body = req.body;
 
-  const answer = await fetch(
+  fetch(
     "https://personal-site-a9a2c-default-rtdb.firebaseio.com/responses.json",
     {
       method: "POST",
