@@ -21,14 +21,17 @@ const Contact = () => {
       time: date.toLocaleTimeString(),
     };
     console.log(info);
-    const res = await fetch("https://formspree.io/f/mpznaqpz", {
-      method: "POST",
-      mode: "cors",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(info),
-    });
+    const res = await fetch(
+      `${"https://formspree.io/f/" + process.env.NEXT_PUBLIC_FORM}`,
+      {
+        method: "POST",
+        mode: "cors",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(info),
+      }
+    );
 
     if (!res.ok) {
       alert("something went wrong");
