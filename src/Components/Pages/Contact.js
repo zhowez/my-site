@@ -20,6 +20,7 @@ const Contact = () => {
       date: date.toISOString().split("T")[0],
       time: date.toLocaleTimeString(),
     };
+    console.log(process.env.NEXT_PUBLIC_FORM);
 
     const res = await fetch(
       `https://formspree.io/f/${process.env.NEXT_PUBLIC_FORM}`,
