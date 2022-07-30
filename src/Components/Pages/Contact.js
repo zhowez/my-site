@@ -4,6 +4,10 @@ import ContentBox from "../UI/ContentBox";
 import { useState } from "react";
 
 const Contact = () => {
+  //TODO: Check if email inputs have been touched
+  // TODO: Check if emails are same
+  //TODO: If touched and Not Same highliht verify in red
+
   const submitHandler = async (event) => {
     event.preventDefault();
 
@@ -18,7 +22,7 @@ const Contact = () => {
     };
     console.log(info);
     const res = await fetch(
-      "https://personal-site-a9a2c-default-rtdb.firebaseio.com/responses.json",
+      `${"https://formspree.io/f/" + process.env.NEXT_PUBLIC_FORM}`,
       {
         method: "POST",
         mode: "cors",
@@ -37,7 +41,9 @@ const Contact = () => {
       setVerifyEmail("");
       setSubject("");
       setMessage("");
-      alert("Thank you for filling out the contact form.");
+      alert(
+        "Thank you for filling out the contact form. I will respond as soon as possible"
+      );
     }
   };
 
@@ -62,6 +68,7 @@ const Contact = () => {
                   name="name"
                   value={name}
                   onChange={(event) => setName(event.target.value)}
+                  required={true}
                 ></input>
               </span>
               <div className={style["organize-email"]}>
@@ -72,6 +79,7 @@ const Contact = () => {
                     name="email"
                     value={email}
                     onChange={(event) => setEmail(event.target.value)}
+                    required={true}
                   ></input>
                 </span>
                 <span className={style["organize-inputs"]}>
@@ -81,6 +89,7 @@ const Contact = () => {
                     name="verifyEmail"
                     value={verifyEmail}
                     onChange={(event) => setVerifyEmail(event.target.value)}
+                    required={true}
                   ></input>
                 </span>
               </div>
@@ -91,6 +100,7 @@ const Contact = () => {
                   name="subject"
                   value={subject}
                   onChange={(event) => setSubject(event.target.value)}
+                  required={true}
                 ></input>
               </span>
               <span className={style["organize-inputs"]}>
@@ -100,10 +110,11 @@ const Contact = () => {
                   name="message"
                   value={message}
                   onChange={(event) => setMessage(event.target.value)}
+                  required={true}
                 ></textarea>
               </span>
 
-              <button>Submit</button>
+              <button disabled={email !== verifyEmail}>Submit</button>
             </div>
           </form>
         </ContentBox>
