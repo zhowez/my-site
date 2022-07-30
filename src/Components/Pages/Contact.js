@@ -22,7 +22,7 @@ const Contact = () => {
     };
 
     const res = await fetch(
-      `https://formspree.io/f/ + ${process.env.NEXT_PUBLIC_FORM}`,
+      `https://formspree.io/f/${process.env.NEXT_PUBLIC_FORM}`,
       {
         method: "POST",
         mode: "cors",
