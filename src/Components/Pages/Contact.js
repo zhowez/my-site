@@ -20,9 +20,9 @@ const Contact = () => {
       date: date.toISOString().split("T")[0],
       time: date.toLocaleTimeString(),
     };
-    console.log(info);
+
     const res = await fetch(
-      `${"https://formspree.io/f/" + process.env.NEXT_PUBLIC_FORM}`,
+      `https://formspree.io/f/ + ${process.env.NEXT_PUBLIC_FORM}`,
       {
         method: "POST",
         mode: "cors",
