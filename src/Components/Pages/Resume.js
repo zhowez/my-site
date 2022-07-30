@@ -102,6 +102,7 @@ const Resume = () => {
             </ContentBox>
 
             <ContentBox className={style.jobs}>
+              {/* TODO: ReWrite all jobs */}
               <h2 ref={workRef}>
                 <BriefcaseFill /> Work Experience
               </h2>
